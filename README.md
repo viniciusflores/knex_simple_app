@@ -9,3 +9,17 @@ Our tool of database is KNEX.js;
 ```
 yarn knex migrate:make <migration-name>
 ```
+
+#### Run all migrations
+
+
+```
+yarn knex migrate:latest
+```
+
+#### Roolback of migration
+
+
+```
+yarn knex migrate:rollback
+```
