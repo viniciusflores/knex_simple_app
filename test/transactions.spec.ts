@@ -26,7 +26,7 @@ describe('Transactions routes', () => {
 
     expect(response.statusCode).toEqual(201)
   })
-  test('Create a interaction', async () => {
+  test('Get all interaction', async () => {
     const createTransactionResponse = await request(app.server)
       .post('/transactions')
       .send({
